@@ -329,6 +329,40 @@ h5.mb-0 {
 }h5.border-end.pe-3.me-3.mb-0 {
     font-weight: bold;
 }
+.portfolio-btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(98, 68, 197, .9);
+    display: inline-grid;
+    align-items: end;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 100px !important;
+    opacity: 0;
+    transition: .5s;
+    text-align: left;
+}
+ul.listing {
+    color: #FFC448;
+    width: 100%;
+}
+a.btn.btn-lg-square.btn-outline-secondary.github.border-2.mx-1 {
+    width: auto;
+    margin-bottom:8px;
+    padding: 20px 20px;
+}
+a.btn.btn-lg-square.btn-outline-secondary.github.border-2.mx-1 i {
+    margin-right: 8px;
+    
+}
+.techstack{
+    color:#FFC448;
+    text-align: center;
+}
+
 @media(max-width: 768px){
     #home {
     margin-bottom: 3rem;
